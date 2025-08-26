@@ -20,7 +20,7 @@ BuildRequires:	libspectre-devel
 BuildRequires:	meson >= 0.61
 BuildRequires:	ninja
 BuildRequires:	pkgconfig
-BuildRequires:	rpmbuild(macros) >= 1.736
+BuildRequires:	rpmbuild(macros) >= 2.042
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
 BuildRequires:	zathura-devel >= 0.3.8
