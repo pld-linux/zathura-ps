@@ -4,12 +4,12 @@
 Summary:	PostScript support for zathura
 Summary(pl.UTF-8):	Obsługa PostScriptu dla zathury
 Name:		zathura-ps
-Version:	0.2.8
+Version:	0.2.9
 Release:	1
 License:	BSD-like
 Group:		Applications/Publishing
 Source0:	https://pwmt.org/projects/zathura-ps/download/%{name}-%{version}.tar.xz
-# Source0-md5:	a1b9fffd4031e24eaddf50e6aa508f04
+# Source0-md5:	c96dd27bfd53bb5cbb97ce5fe2d17225
 URL:		https://pwmt.org/projects/zathura-ps/
 BuildRequires:	cairo-devel
 # C17
