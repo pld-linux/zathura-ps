@@ -4,17 +4,17 @@
 Summary:	PostScript support for zathura
 Summary(pl.UTF-8):	Obsługa PostScriptu dla zathury
 Name:		zathura-ps
-Version:	2026.01.30
+Version:	2026.02.03
 Release:	1
 License:	BSD-like
 Group:		Applications/Publishing
 Source0:	https://pwmt.org/projects/zathura-ps/download/%{name}-%{version}.tar.xz
-# Source0-md5:	19d0e7a1da505d0892ced288d8937179
+# Source0-md5:	9ff1aed26d41b215ebc4c9305cba59b9
 URL:		https://pwmt.org/projects/zathura-ps/
 BuildRequires:	cairo-devel
 # C17
 BuildRequires:	gcc >= 6:8.1.0
-BuildRequires:	girara-devel >= 0.1.8
+BuildRequires:	girara-devel >= 2026.02.03
 BuildRequires:	glib2-devel >= 2.0
 BuildRequires:	libspectre-devel
 BuildRequires:	meson >= 0.61
@@ -25,7 +25,7 @@ BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
 BuildRequires:	zathura-devel >= 2026.01.30
 Requires(post,postun):	desktop-file-utils
-Requires:	girara >= 0.1.8
+Requires:	girara >= 2026.02.03
 Requires:	zathura >= 2026.01.30
 Requires:	zathura(plugin-abi) = %_zathura_abi_ver
 Requires:	zathura(plugin-api) = %_zathura_api_ver
